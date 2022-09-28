@@ -1,1 +1,36 @@
 /*coment comentario */
+#contenido{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    background-color: ghostwhite;
+}
+#Inicio {
+    background-color: lightblue;
+    align-items: center;
+    display: flex;
+}
+
+#Inicio h1{
+    position: absolute;
+    padding: 5px 10px 5px 20px;
+    background-color: ghostwhite;
+    
+}
+
+
+#Inicio img{
+    margin: 20px;
+    margin-left: 700px;
+    
+    
+}
+
+.InfAcademica{
+
+}
+
+h1 {
+
+}
