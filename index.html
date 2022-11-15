@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Electrónico</title>
-    <meta name="description" content="Curriculum Electrónico Fernanda Villalobos">
-    <meta name="keywords" content="UTN, Curriculum, Diseño, Web, Aplicaciones">
-    <meta name="author" content="Fernanda Villalobos">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Electrónico</title>
+  <meta name="description" content="Curriculum Electrónico Fernanda Villalobos">
+  <meta name="keywords" content="UTN, Curriculum, Diseño, Web, Aplicaciones">
+  <meta name="author" content="Fernanda Villalobos">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <style>
-      table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      
-      td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-      }
-      
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
-    </style>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
 </head>
+
 <body>
-    <div id="contenido">
+  <div id="contenido">
 
-      <div id="Inicio">
-        <h1>María Fernanda Villalobos Barquero </h1>
-        <img src="img/fotoPerfi.jpeg" alt="María Fernanda Villalobos Barquero" height="150px" width="150px" align="rigth">
-      </div>
-      <hr>
+    <div id="Inicio">
+      <h1>María Fernanda Villalobos Barquero </h1>
+      <img src="img/fotoPerfi.jpeg" alt="María Fernanda Villalobos Barquero" height="150px" width="150px" align="rigth">
+    </div>
 
-      <div id="infPersonal">
-        <article>
-          <h2 >Información Personal</h2>
-            <ul type="circle", >
-              <li >Correo Electrónico: mvillalobosb@est.utn.ac.cr</li>
-              <li >Número de contacto: 8617-2108</li>
-            </ul>
-        </article>
+    <div id="principal">
+
+      <div>
+        <nav class="barraNav">
+          <a class="linkNav" href="index.html">Inicio</a>
+          <a class="linkNav" href="index.html">Información Personal</a>
+          <a class="linkNav" href="index.html">Cursos</a>
+          <a class="linkNav" href="index.html">Contactos</a>
+        </nav>
       </div>
-      
-      <hr>
 
       <div class="InfAcademica">
         <article>
           <h2>Información académica formal</h2>
-            <p>(2019 - actualidad) Ingeniería del Software, Universidad Técnica Nacional de Costa Rica.</p> 
-            <p>(2019)	Bachillerato en Educación Media, Colegio Técnico Profesional Regional de San Carlos.</p>
-            <p>(2019) 	Técnico Medio en Informática en Soporte, Colegio Técnico Profesional Regional de San Carlos.</p> 
+          <p>(2019 - actualidad) Ingeniería del Software, Universidad Técnica Nacional de Costa Rica.</p>
+          <p>(2019) Bachillerato en Educación Media, Colegio Técnico Profesional Regional de San Carlos.</p>
+          <p>(2019) Técnico Medio en Informática en Soporte, Colegio Técnico Profesional Regional de San Carlos.</p>
         </article>
       </div>
-      
+
+
       <hr>
       <article>
         <h2>Cursos Especializados</h2>
@@ -72,15 +74,6 @@
       </article>
 
       <hr>
-
-      <article>
-          <h2>Hobbies y aficiones especiales</h2>
-          <ol>
-            <li><a href="https://www.larepublica.net/articulo/mejores-rutas-hiking-costa-rica" target="_blank">Senderismo</a></li>
-            <li><a href="https://www.aarp.org/espanol/hogar-familia/casa-jardin/info-2019/guia-para-aprender-tejer.html" target="_blank">Manualidades como tejer</a></li>
-            <li><a href="https://www.planetadelibros.com/seleccion-editorial/libros-recomendados/132" target="_blank">Leer</a></li>
-          </ol>
-      </article>
 
       <h2>Referencias</h2>
       <table class="center">
@@ -117,23 +110,52 @@
         <tfoot>
           <tr>
             <center>
-              <td colspan = 5>Tabla de Referencias</td>
+              <td colspan=5>Tabla de Referencias</td>
             </center>
-            
+
           </tr>
         </tfoot>
       </table>
-  
-      <p> Ir al<a href="#Inicio"> inicio </a> </p>
 
-      <center>
-        <footer>
-          <p>Derechos reservados ISW-DAW UTM III-2022</p>
-          <p>Contacto: <a href="mailto:mvillalobosb@est.utn.ac.cr"> mvillalobosb@est.utn.ac.cr</a>.</p>
-        </footer>
-      </center>
+      <p> Ir al<a href="#Inicio"> inicio </a> </p>
     </div>
-    
-    
+
+
+    <aside id="aside">
+      <div id="infPersonal">
+        <article id="datos">
+          <h2>Datos Personales</h2>
+          <ul type=none>
+            <li>Correo Electrónico: mvillalobosb@est.utn.ac.cr</li>
+            <li>Número de contacto: 8617-2108</li>
+          </ul>
+        </article>
+
+        <hr>
+
+        <article id="Hobbies">
+          <h2>Hobbies y aficiones especiales</h2>
+          <ol>
+            <li><a href="https://www.larepublica.net/articulo/mejores-rutas-hiking-costa-rica"
+                target="_blank">Senderismo</a></li>
+            <li><a href="https://www.aarp.org/espanol/hogar-familia/casa-jardin/info-2019/guia-para-aprender-tejer.html"
+                target="_blank">Manualidades como tejer</a></li>
+            <li><a href="https://www.planetadelibros.com/seleccion-editorial/libros-recomendados/132"
+                target="_blank">Leer</a></li>
+          </ol>
+        </article>
+      </div>
+    </aside>
+
+    <center>
+      <footer>
+        <p>Derechos reservados ISW-DAW UTM III-2022</p>
+        <p>Contacto: <a href="mailto:mvillalobosb@est.utn.ac.cr"> mvillalobosb@est.utn.ac.cr</a>.</p>
+      </footer>
+    </center>
+  </div>
+
+
 </body>
+
 </html>
